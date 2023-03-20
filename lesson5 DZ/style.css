@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+input {
+    border: 2px solid teal;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 20px;
+    font-family: "Times New Roman", serif;
+    border-radius: 20px;
+}
+
+#create_button {
+    width: 200px;
+    height: 40px;
+    border: 2px solid teal;
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.45);
+    font-size: 22px;
+    font-family: "Times New Roman", serif;
+    border-radius: 20px;
+    color: #033f3f;
+}
+
+#todo_list {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.block_text {
+    width: 100%;
+    border: 2px solid teal;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delButton {
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    cursor: pointer;
+    background: #3b9461;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.edit{
+    background: rgba(255, 196, 0, 0.58);
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-family:  "Times New Roman", serif;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: "Times New Roman", serif; ;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+}
+
+span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+}
