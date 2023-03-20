@@ -53,6 +53,24 @@ input {
     justify-content: space-between;
 }
 
+h3 {
+    font-size: 28px;
+    font-family: "Times New Roman", serif; ;
+}
+
+span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+}
 .delButton {
     width: 150px;
     height: 40px;
@@ -76,24 +94,4 @@ input {
     color: #ffffff;
     text-align: center;
     font-family:  "Times New Roman", serif;
-}
-
-h3 {
-    font-size: 28px;
-    font-family: "Times New Roman", serif; ;
-}
-
-.buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 320px;
-}
-
-span {
-    display: block;
-    width: 50px;
-    height: 50px;
-    border: 1px solid;
-    border-radius: 50%;
 }
