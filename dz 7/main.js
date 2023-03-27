@@ -7,7 +7,7 @@ class Cars{
         this.wheels = options.wheels
     }
     start(){
-        console.log('Машина завелась')
+        console.log(`${this.model} машина завелась`)
     }
 }
 
