@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DZ1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="first">
+    <div >
+        <label for="email"> Введите вашу почту:</label>
+        <input type="email" id="email" placeholder="email@gmail.com">
+        <span id="emailCheck"></span>
+    </div>
+    <div>
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="Пароль">
+        <input type="checkbox" id="checkbox1">
+        <label for="checkbox1">Show</label>
+
+        <div>Пароль должен содержать: от 4 до 20 символов, одну букву в верхнем регистре, одну букву в нижнем регистре и одну цифру</div>
+        <div id="passwordCheck"></div>
+    </div>
+    <div>
+        <label for="passwordRepeat"></label>
+        <input type="password" id="passwordRepeat" placeholder="Повторите пароль">
+        <input type="checkbox" id="checkbox2">
+        <label for="checkbox2">Show</label>
+        <span id="passwordRepeatCheck"></span>
+    </div>
+    <button id="save">Сохранить</button>
+    <div id="saveEnd"></div>
+</div>
+<div class="second">
+    <div class="rel">
+        <div class="abs"></div>
+    </div>
+
+</div>
+</body>
+<script src="main.js"></script>
+</html>
