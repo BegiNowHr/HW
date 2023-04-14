@@ -1,3 +1,4 @@
+//Задание №2
 let timer = 0;
 let time = document.querySelector('#time');
 let alertTime = document.querySelector('#alert');
@@ -26,36 +27,8 @@ setInterval(() => {
     }
 }, 1000);
 
-// const rel = document.querySelector('.rel');
-// const abs = document.querySelector('.abs');
-//
-// const absMove = (rel.offsetWidth - abs.offsetWidth) / 2;
-//
-// let positionX = 225;
-// let positionY = 0;
-// let phase = 1;
-//
-// const move = () => {
-//     if (phase === 1&& positionX ===200 ) {
-//         positionX++;
-//         positionY++;
-//         abs.style.left = positionX + 'px';
-//         abs.style.top = positionY + 'px';
-//         // if(positionX===)
-//     }
-//     //  else if(phase ===2){
-//     //     positionX++;
-//     //     positionY++;
-//     //     abs.style.left = positionX + 'px';
-//     //     abs.style.top = positionY + 'px';
-//     // }
-//
-//
-//     setTimeout(move, 10);
-// };
-//
-// move();
-//
+
+//задание№1
 const abs = document.querySelector('.abs');
 const rel = document.querySelector(".rel");
 
@@ -107,111 +80,3 @@ function moveBlock() {
     abs.style.top = `${posY}px`;
 }
 setInterval(moveBlock, 0);
-//
-// let lineX = 225
-// let lineY =0
-// phase = 1
-//
-// const move = ()=>{
-//     if (lineX >= 0 && lineY <= 225) {
-//         lineX--
-//         lineY++
-//         abs.style.left = `${lineY}px`;
-//         abs.style.top = `${lineX}px`;
-//         abs.style.backgroundColor = 'white'
-//         setTimeout(move,1)
-//     } else if (lineX <= 225 && lineY <= 450) {
-//         lineX++
-//         lineY++
-//         abs.style.left = `${lineY}px`;
-//         abs.style.top = `${lineX}px`;
-//         abs.style.backgroundColor = `blue`;
-//         setTimeout(move,1)
-//         // if (lineX ===225 && lineY===450){
-//         //     phase = 3
-//         // }
-//     } else if (lineX <= 450 && lineY >= 225) {
-//         lineX++
-//         lineY--
-//         abs.style.left = `${lineY}px`;
-//         abs.style.top = `${lineX}px`;
-//         abs.style.backgroundColor = 'green';
-//         setTimeout(move,1)
-//         // if (lineX ===450 && lineY===225){}
-//         // phase===4
-//     }
-//     // else if (lineX >= 225 && lineY >= 0) {
-//     //     lineX--
-//     //     lineY--
-//     //     abs.style.left = `${lineY}px`;
-//     //     abs.style.top = `${lineX}px`;
-//     //     abs.style.backgroundColor = 'red'
-//     //     setTimeout(move,1)
-//     //
-//     // }
-// move()
-// }
-// move()
-
-// let positionX = 0;
-// let positionY = 450;
-// const move = () => {
-//     if (positionX >= 0&& positionY>=0) {
-//         positionX+=7
-//         positionY-=15
-//         abs.style.top = `${positionX}px`
-//         abs.style.left = `${positionY}px`
-//         setTimeout(move, 100)
-//     }
-//         else if (positionX <=450&& positionY<=450) {
-//         positionY++
-//         positionX--
-//         abs.style.left = `${positionY}px`
-//         abs.style.top = `${positionX}px`
-//         setTimeout(move, 1)
-//     }
-//     else if(positionX>=0&& positionY>=0){
-//         positionY--
-//         positionX--
-//         abs.style.top = `${positionY}px`
-//         abs.style.left = `${positionX}px`
-//         setTimeout(move, 1)
-//     }
-// }
-// move()
-
-// let newX = 0;
-// let newY = 225;
-// let coordinats = [
-//     { x: 0, y: 225 },
-//     { x: 225, y: 0 },
-//     { x: 450, y: 225 },
-//     { x: 225, y: 450 },
-// ];
-// let currentPoint = 0;
-//
-// const move = ()=>{
-//     abs.style.left = `${newY}px`;
-//     abs.style.top = `${newX}px`;
-//
-//     if (newX < coordinats[currentPoint].x) {
-//         newX++;
-//     } else if (newX > coordinats[currentPoint].x) {
-//         newX--;
-//     }
-//
-//     if (newY < coordinats[currentPoint].y) {
-//         newY++;
-//     } else if (newY > coordinats[currentPoint].y) {
-//         newY--;
-//     }
-//
-//     if (newX === coordinats[currentPoint].x && newY === coordinats[currentPoint].y) {
-//         currentPoint++;
-//         if (currentPoint >= coordinats.length) {
-//             currentPoint = 0;
-//         }
-//     }
-//     setTimeout(move,1)
-// }
-// move()
