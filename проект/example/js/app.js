@@ -81,7 +81,6 @@ intervalChange = setInterval(changeNext, 1000);
 const stopInterval = function (){
     clearInterval(intervalChange);
     setTimeout(() => {
-        clearInterval(intervalChange);
         intervalChange = setInterval(changeNext, 1000);
     }, 5000);
 }
