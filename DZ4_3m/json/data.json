@@ -1,0 +1,52 @@
+[
+  {"image": "images/nintendo1.jpg",
+    "price": "34629$",
+    "name": "NINTENDO",
+    "description": "Игровая приставка Nintendo Switch OLED 64GB Splatoon"
+  },
+  { "image": "images/nintendo2.jpg",
+    "name": "NINTENDO",
+    "description": "Игровая приставка Switch OLED-модель синяя красная",
+    "price": "33572$"
+     },
+  {"image": "images/nintendo3.jpg",
+    "name": "NINTENDO",
+    "description": "Консоль Switch Lite Yellow",
+    "price": "18492$"
+     },
+  { "image": "images/nintendo4.jpg",
+    "name": "NINTENDO",
+    "description": "Игровая приставка Switch (OLED-модель) белая",
+    "price": "33572$"
+     },
+  { "image": "images/nintendo5.jpg",
+    "name": "NINTENDO",
+    "description": "Консоль Switch Lite Blue",
+    "price": "188992$"
+  },
+  {"image": "images/nintendo6.jpg",
+    "name": "NINTENDO",
+    "description": "Игровая приставка Switch, серый",
+    "price": "27292$"
+  },
+  { "image": "images/nintendo7.jpg",
+    "name": "NINTENDO",
+    "description": "Игровая консоль Switch Lite Turquoise",
+    "price": "16559$"
+  },
+  {"image": "images/nintendo8.jpg",
+    "name": "NINTENDO",
+    "description": "Игровой контроллер Joy-Con для Switch",
+    "price": "28499$"
+  },
+  { "image": "images/nintendo9.jpg",
+    "name": "NINTENDO",
+    "description": "Чехол для Nintendo Switch",
+    "price": "3008$"
+  },
+  {"image": "images/nintendo10.jpg",
+    "name": "NINTENDO",
+    "description": "Игровая приставка Switch Особое издание Марио",
+    "price": "35330$"
+  }
+]

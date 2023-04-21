@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 1200px;
+    max-width: 1504px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 220px;
+    height: 500px;
+    margin: 10px;
+}
+img{
+    width: 220px;
+}
+h2{
+    font: 20px sans-serif;
+}
+.description{
+    font: 20px sans-serif;
+    color: grey;
+}
+.price{
+    font: bold 24px sans-serif;
+}
