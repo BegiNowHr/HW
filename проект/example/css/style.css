@@ -730,3 +730,13 @@ a {
         opacity: 1;
     }
 }
+
+.modalCall200{
+    width: 200px;
+    background-color: white;
+    position : absolute;
+    border : 1px solid black;
+    padding : 20px;
+    top : 400px;
+    left : 1215px;
+}

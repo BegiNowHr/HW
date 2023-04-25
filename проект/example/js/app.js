@@ -115,3 +115,58 @@ modal.addEventListener("click", (e) => {
         closeModal();
     }
 });
+
+
+const forms = document.querySelectorAll("form")
+
+const postData = (form)=>{
+    form.addEventListener("submit" , (e) =>{
+        e.preventDefault()
+
+        const request = new XMLHttpRequest()
+        request.open("POST", "server.php")
+        request.setRequestHeader("Content-Type","application/json")
+
+
+        const formData = new FormData(form)
+
+        const obj = {}
+
+
+        formData.forEach((value,name)=>{
+            console.log(value,name)
+            obj[name] = value
+        })
+
+        const json = JSON.stringify(obj)
+        console.log(json)
+        request.send(json)
+
+        request.addEventListener("load", () => {
+            if (request.status === 200) {
+                const modal200 = document.createElement("div");
+                modal200.innerHTML = "Все хорошо!";
+                modal200.classList.add("modalCall200")
+                modal.appendChild(modal200)
+                setTimeout(() => {
+                    modal.removeChild(modal200);
+                }, 3000);
+            }
+            else {
+                const modalError = document.createElement("div");
+                modalError.innerHTML = "ОШИБКА"
+                modalError.classList.add("modalCall200")
+                modal.appendChild(modalError)
+                setTimeout(() => {
+                    modal.removeChild(modalError);
+                }, 3000);
+
+            }
+        });
+    })
+
+}
+
+forms.forEach((item)=>{
+    postData(item)
+})
